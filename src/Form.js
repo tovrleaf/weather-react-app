@@ -4,10 +4,7 @@ class Form extends Component {
   render() {
     return (
       <form>
-        <label>
-          Town
-          <input type="text" name="town" />
-        </label>
+        <input type="text" name="city" placeholder="City" />
         <button>Get Weather</button>
       </form>
     );
